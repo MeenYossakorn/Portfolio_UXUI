@@ -141,7 +141,7 @@ const MySkills = () => {
                 <div className="flex flex-col items-center justify-center">
                   <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                     <img
-                      src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-144x86-czphjb87.png"
+                      src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                       alt="TailwindCSS Icon"
                       className="w-7 h-5 sm:w-9 sm:h-7"
                     />
@@ -151,7 +151,7 @@ const MySkills = () => {
                   </p>
                 </div>
                 {/* MaterialUI Icons */}
-                <div className="flex flex-col items-center justify-center">
+                {/* <div className="flex flex-col items-center justify-center">
                   <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                     <img
                       src="https://frontendmag.com/wp-content/uploads/2023/01/material-ui-logo.png"
@@ -162,9 +162,9 @@ const MySkills = () => {
                   <p className="font-roboto text-xs sm:text-sm text-white text-center mt-1">
                     MaterialUI
                   </p>
-                </div>
+                </div> */}
                 {/* DaisyUI Icons */}
-                <div className="flex flex-col items-center justify-center">
+                {/* <div className="flex flex-col items-center justify-center">
                   <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                     <img
                       src="https://avatars.githubusercontent.com/u/76870092?s=280&v=4"
@@ -175,12 +175,12 @@ const MySkills = () => {
                   <p className="font-roboto text-xs sm:text-sm text-white text-center mt-1">
                     DaisyUI
                   </p>
-                </div>
+                </div> */}
                 {/* Bootstrap Icons */}
                 <div className="flex flex-col items-center justify-center">
                   <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png?_=20210507000024"
                       alt="Bootstrap Icon"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                     />
@@ -235,7 +235,7 @@ const MySkills = () => {
                     <div className="flex flex-col items-center justify-center">
                       <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                         <img
-                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png"
+                          src="https://upload.wikimedia.org/wikipedia/commons/b/be/Adobe_Photoshop_CS6_icon.png"
                           alt="Photoshop Icon"
                           className="w-6 h-6 sm:w-8 sm:h-8"
                         />
@@ -281,7 +281,7 @@ const MySkills = () => {
                   <div className="flex flex-col items-center justify-center">
                     <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
                       <img
-                        src="https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/120px-Git_icon.svg.png"
                         alt="Git Icon"
                         className="w-6 h-6 sm:w-8 sm:h-8"
                       />
