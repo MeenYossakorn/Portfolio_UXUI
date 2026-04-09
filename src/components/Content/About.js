@@ -59,7 +59,7 @@ const About = () => {
                       {/* Button section */}
                       <div className="mt-5">
                         <a
-                          href="https://drive.google.com/file/d/16-hWWbwn16TMl7urZF9HV88QpxhMMr90/view?usp=sharing"
+                          href="https://drive.google.com/file/d/1G9OlUKek6LvmFUCatqMtfphgy3yVVBEG/view?usp=sharing"
                           className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
                           transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
                           target="_blank"
