@@ -5,7 +5,7 @@ const IntroSection = () => {
   return (
     <section id="Intro">
       <div className="bg-transparent text-white flex items-center justify-center min-h-screen relative flex-col md:flex-row pt-14">
-        <div className="max-w-[560px] px-4">
+        <div className="max-w-[840px] px-4">
           <p className="text-purple-500 mb-2 text-xl md:text-2xl font-jetbrains-mono-medium font-bold relative">
             Hi, my name is
           </p>
@@ -13,11 +13,10 @@ const IntroSection = () => {
             Yossakorn Lengrabum
           </h1>
           <p className="mb-6 mt-2 font-roboto text-base md:text-lg pr-1 relative">
-            &nbsp;&nbsp; I'm a Computer and Electronics Engineering student with
-            a passion for front-end development and UX/UI design. I am actively
-            seeking internship opportunities to apply my skills and expand my
-            professional experience. If you'd like to collaborate or learn more
-            about my work, feel free to reach out!
+            &nbsp;&nbsp; I'm a Computer and Electronics Engineering student with a strong passion 
+            for UX/UI design and front-end development. I am currently seeking full-time opportunities 
+            to apply my skills and further develop my professional experience. If you'd like to collaborate 
+            or learn more about my work, feel free to reach out!
           </p>
           <a href="#Contact">
             <button
@@ -29,12 +28,12 @@ const IntroSection = () => {
           </a>
         </div>
 
-        <div className="hidden md:block ml-8 md:ml-48 mt-8 md:mt-0">
+        <div className="hidden md:block ml-5 md:ml-48 mt-8 md:mt-0">
           <div className="bg-transparent p-1 w-80 h-50 flex items-center justify-center ">
             <img
               src={meenPhotoshopHi}
               alt="Yossakorn Lengrabum"
-              className="w-full max-w-[300px] md:max-w-[1000px] rounded-lg IntroAnimation"
+              className="w-full max-w-[1900px] md:max-w-[1000px] rounded-lg IntroAnimation"
             />
           </div>
         </div>
