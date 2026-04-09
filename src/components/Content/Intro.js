@@ -14,7 +14,7 @@ const IntroSection = () => {
           </h1>
           <p className="mb-6 mt-2 font-roboto text-base md:text-lg pr-1 relative">
             &nbsp;&nbsp; I'm a Computer and Electronics Engineering student with a strong passion 
-            for UX/UI design and front-end development. I am currently seeking full-time opportunities 
+            for UX/UI design and Front-end development. I am currently seeking full-time opportunities 
             to apply my skills and further develop my professional experience. If you'd like to collaborate 
             or learn more about my work, feel free to reach out!
           </p>

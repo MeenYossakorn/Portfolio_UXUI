@@ -13,12 +13,11 @@ const About = () => {
             <div className="mt-4 px-2 sm:px-4 md:px-10">
               <div>
                 <p className="font-roboto text-[12px] sm:text-xs md:text-base">
-                  &nbsp;&nbsp;   I am a recent graduate in Computer and Electronics Engineering. 
-                  I have a strong interest and passion for mobile and web development, with expertise in UX/UI Design
-                  , HTML, and CSS gained through various university projects.
-                  I am committed to continuous learning and self-improvement in this field, 
-                  and I am eager to pursue a position in UX/UI Design where I can apply my knowledge,
-                  develop my skills, and contribute to the organization.
+                  &nbsp;&nbsp;   I am a recent graduate in Computer and Electronics Engineering with a strong passion 
+                  for UX/UI Design and Front-End Development. I have hands-on experience in UX/UI Design, HTML, and CSS 
+                  through various academic projects. I am dedicated to continuous learning and professional growth, 
+                  and I am seeking an opportunity in UX/UI Design and Front-End Development to apply my skills, enhance my expertise, 
+                  and contribute to the organization.
                   <div className="relative mb-2 inline-block w-full h-0.5 bg-gradient-purple mt-6 "></div>
                 </p>
 
@@ -44,7 +43,7 @@ const About = () => {
                       </p>
 
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
-                        2021 - Current
+                        2021 - 2026
                       </p>
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
                         Faculty of College Of Industrial Technology (CIT)
@@ -53,7 +52,7 @@ const About = () => {
                         Major - Electronics and Computer Engineering
                       </p>
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
-                        GPA : 2.64
+                        GPA : 2.69
                       </p>
 
                       {/* Button section */}

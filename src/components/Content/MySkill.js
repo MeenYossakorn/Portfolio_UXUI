@@ -51,10 +51,10 @@ const MySkills = () => {
                   MY SKILL
                 </h2>
 
-                <p className="text-white font-roboto text-xs lg:text-sm text-center lg:text-left">
+                <p className="text-white font-roboto text-xs lg:text-sm text-center lg:text-left whitespace-nowrap">
                   These are the languages and tools I regularly use to deliver
                 </p>
-                <p className="text-white font-roboto text-xs lg:text-sm mb-6 text-center lg:text-left">
+                <p className="text-white font-roboto text-xs lg:text-sm mb-6 text-center lg:text-left whitespace-nowrap">
                   efficient and modern solutions to users.
                 </p>
               </div>
