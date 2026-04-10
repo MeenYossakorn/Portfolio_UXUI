@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import TMLTH from "./Experience/TMLTH";
 import meenPhotoshopMacbook from "../../assets/Images/Meenphotoshop2-macbook.png";
 
 const About = () => {
@@ -23,7 +25,7 @@ const About = () => {
 
                 <div className="flex flex-col md:flex-row items-start mt-4">
                   <div className="hidden md:flex flex-1 justify-center md:justify-center">
-                    <div className="bg-transparent p-1 w-[300px] h-auto flex items-center justify-center">
+                    <div className="bg-transparent p-1 w-[350px] h-auto flex items-center justify-center mt-12">
                       <img
                         src={meenPhotoshopMacbook}
                         alt="Yossakorn Lengrabum"
@@ -41,10 +43,6 @@ const About = () => {
                       <p className="text-[10px] sm:text-xs md:text-base font-roboto whitespace-nowrap overflow-x-auto">
                         King Mongkut's University of Technology North Bangkok
                       </p>
-
-                      <p className="text-[10px] sm:text-sm md:text-base font-roboto">
-                        2021 - 2026
-                      </p>
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
                         Faculty of College Of Industrial Technology (CIT)
                       </p>
@@ -52,11 +50,12 @@ const About = () => {
                         Major - Electronics and Computer Engineering
                       </p>
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
+                        2021 - 2026
+                      </p>
+                      <p className="text-[10px] sm:text-sm md:text-base font-roboto">
                         GPA : 2.69
                       </p>
-
-                      {/* Button section */}
-                      <div className="mt-5">
+                      <div className="mt-8">
                         <a
                           href="https://drive.google.com/file/d/1G9OlUKek6LvmFUCatqMtfphgy3yVVBEG/view?usp=sharing"
                           className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
@@ -75,7 +74,38 @@ const About = () => {
                         >
                           Transcript
                         </a>
+                        
                       </div>
+                      
+                      <h2 className="mt-5 text-lg sm:text-2xl font-semibold font-roboto-mono mb-2 relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-[1px] after:w-full after:h-0.5 after:bg-gradient-purple">
+                      Experience
+                      </h2>
+                      <p className="text-[10px] sm:text-xs md:text-base font-roboto whitespace-nowrap overflow-x-auto">
+                        UX/UI Designer - Internship
+                      </p>
+                      <p className="text-[10px] sm:text-xs md:text-base font-roboto whitespace-nowrap overflow-x-auto">
+                        Tokio marine Life Insurance (Thailand)
+                      </p>
+
+                      <p className="text-[10px] sm:text-sm md:text-base font-roboto">
+                        Jan 2025 – Apr 2025 (4 months)
+                      </p>
+                      
+
+                      {/* Button section */}
+                      <div className="mt-8">
+                        <Link
+    to="/tmlth"
+    className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
+    transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
+  >
+                          View Case Study
+                        </Link>
+                        
+                        
+                      </div>
+
+                      
                     </div>
                   </div>
                 </div>

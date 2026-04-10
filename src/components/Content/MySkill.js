@@ -38,7 +38,7 @@ const MySkills = () => {
   return (
     <section id="Skill">
       <div className="items-center">
-        <div className=" md:pt-20 bg-transparent text-white  flex items-center justify-center   relative mt-40  relative">
+        <div className=" md:pt-20 bg-transparent text-white  flex items-center justify-center   relative mt-40 ">
           <div className="flex flex-col lg:flex-row gap-10 w-full max-w-[1220px] justify-start ">
             <div
               ref={leftSectionRef}

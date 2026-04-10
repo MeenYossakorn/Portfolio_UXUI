@@ -7,7 +7,6 @@
 /* background */
 body {
   background-color: #031329; /* color */
-  cursor: none;
 }
 
 /* พื้นหลัง */
@@ -24,6 +23,7 @@ body {
   position: absolute;
   border-radius: 50%;
   filter: blur(100px);
+  
 }
 
 /* วงกลมที่ 1 */
@@ -33,6 +33,7 @@ body {
   width: 300px;
   height: 300px;
   background-color: #19376D;
+  pointer-events: none;
 }
 
 /* วงกลมที่ 2 */
@@ -42,6 +43,7 @@ body {
   width: 300px;
   height: 300px;
   background-color: #381A79;
+  pointer-events: none;
 }
 
 /* วงกลมที่ 3 */
@@ -52,6 +54,7 @@ body {
   height: 400px;
   background-color: white;
   filter: blur(250px);
+  pointer-events: none;
 }
 
 /* วงกลมที่ 4 */
@@ -62,6 +65,7 @@ body {
   height: 400px;
   background-color: #19376D;
   filter: blur(200px);
+  pointer-events: none;
 }
 
 /* วงกลมที่ 5 */
@@ -72,6 +76,7 @@ body {
   height: 400px;
   background-color: white;
   filter: blur(300px);
+  pointer-events: none;
 }
 
 /* วงกลมที่ 6 */
@@ -82,6 +87,7 @@ body {
   height: 400px;
   background-color: #19376D;
   filter: blur(150px);
+  pointer-events: none;
 }
 
 /* วงกลมที่ 7 */
@@ -92,6 +98,7 @@ body {
   height: 400px;
   background-color: #381A79;
   filter: blur(250px);
+  pointer-events: none;
 }
 
 /* วงกลมที่ 8 */
@@ -102,6 +109,7 @@ body {
   height: 400px;
   background-color: #19376D;
   filter: blur(200px);
+  pointer-events: none;
 }
 
 /* font */
