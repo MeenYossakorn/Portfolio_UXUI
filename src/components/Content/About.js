@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TMLTH from "./Experience/TMLTH";
+
 import meenPhotoshopMacbook from "../../assets/Images/Meenphotoshop2-macbook.png";
 
 const About = () => {
@@ -76,10 +76,12 @@ const About = () => {
                         </a>
                         
                       </div>
-                      
-                      <h2 className="mt-5 text-lg sm:text-2xl font-semibold font-roboto-mono mb-2 relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-[1px] after:w-full after:h-0.5 after:bg-gradient-purple">
+                      </div>
+                    
+                      <h2 className="mt-6 text-lg sm:text-2xl font-semibold font-roboto-mono mb-2 relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-[1px] after:w-full after:h-0.5 after:bg-gradient-purple">
                       Experience
                       </h2>
+                      <div className="mt-2">
                       <p className="text-[10px] sm:text-xs md:text-base font-roboto whitespace-nowrap overflow-x-auto">
                         UX/UI Designer - Internship
                       </p>
@@ -95,10 +97,10 @@ const About = () => {
                       {/* Button section */}
                       <div className="mt-8">
                         <Link
-    to="/tmlth"
-    className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
-    transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
-  >
+                        to="/tmlth"
+                        className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
+                        transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
+                        >
                           View Case Study
                         </Link>
                         

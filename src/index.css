@@ -6,6 +6,7 @@
 
 /* background */
 body {
+  
   background-color: #031329; /* color */
 }
 
@@ -23,7 +24,8 @@ body {
   position: absolute;
   border-radius: 50%;
   filter: blur(100px);
-  
+  pointer-events: none;
+  z-index: -1; /* 👈 สำคัญ */
 }
 
 /* วงกลมที่ 1 */
@@ -49,10 +51,10 @@ body {
 /* วงกลมที่ 3 */
 .circle3 {
   top: 1000px;
-  left: 0px;
+  left: -120px;
   width: 400px;
   height: 400px;
-  background-color: white;
+  background-color: rgb(199, 199, 199);
   filter: blur(250px);
   pointer-events: none;
 }
