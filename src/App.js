@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./index.css";
 
 
@@ -32,26 +32,26 @@ function Home() {
 
 export default function App() {
   return (
-    <div className="w-full h-screen relative">
-      <div className="circle circle1"></div>
-      <div className="circle circle2"></div>
-      <div className="circle circle3"></div>
-      <div className="circle circle4"></div>
-      <div className="circle circle5"></div>
-      <div className="circle circle6"></div>
-      <div className="circle circle7"></div>
-      <div className="circle circle8"></div>
-    
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tmlth" element={<TMLTH />} />
-      </Routes>
+    <div className="relative w-full">
+      {/* Circles Background */}
+      <div className="fixed inset-0 pointer-events-none">
+        <div className="circle circle1"></div>
+        <div className="circle circle2"></div>
+        <div className="circle circle3"></div>
+        <div className="circle circle4"></div>
+        <div className="circle circle5"></div>
+        <div className="circle circle6"></div>
+        <div className="circle circle7"></div>
+        <div className="circle circle8"></div>
+      </div>
 
- 
-
-      
-    
+      {/* Content */}
+      <div className="relative z-10">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tmlth" element={<TMLTH />} />
+        </Routes>
+      </div>
     </div>
-    
   );
 }
