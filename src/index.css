@@ -54,8 +54,8 @@ body {
   left: -120px;
   width: 400px;
   height: 400px;
-  background-color: rgb(199, 199, 199);
-  filter: blur(250px);
+  background-color: rgb(150, 150, 150);
+  filter: blur(600px);
   pointer-events: none;
 }
 
@@ -66,7 +66,7 @@ body {
   width: 400px;
   height: 400px;
   background-color: #19376D;
-  filter: blur(200px);
+  filter: blur(400px);
   pointer-events: none;
 }
 
@@ -76,8 +76,8 @@ body {
   left: 0px;
   width: 400px;
   height: 400px;
-  background-color: white;
-  filter: blur(300px);
+  background-color: rgb(70, 31, 116);
+  filter: blur(500px);
   pointer-events: none;
 }
 

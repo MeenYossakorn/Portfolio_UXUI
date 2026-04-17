@@ -34,7 +34,7 @@ export default function App() {
   return (
     <div className="relative w-full">
       {/* Circles Background */}
-      <div className="fixed inset-0 pointer-events-none">
+      <div className="inset-0 pointer-events-none">
         <div className="circle circle1"></div>
         <div className="circle circle2"></div>
         <div className="circle circle3"></div>
