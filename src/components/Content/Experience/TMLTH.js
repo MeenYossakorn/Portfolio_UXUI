@@ -286,10 +286,10 @@ I redesigned the visuals by updating images and icons, and simplified the text f
           Redesign Overview
         </h2>
         <p className="text-gray-300 leading-relaxed">
-          Task :
+          Task : I was assigned to redesign the Premium Payment page to make it more modern and aligned with the Corporate Identity, while maintaining the existing form structure.
         </p>
         <p className="mt-5 text-gray-300 leading-relaxed">
-          Process :
+          Process : I improved the button design to create clearer visual separation and enhanced selection states, making it easier for users to recognize their choices. I collaborated with the BA and development teams, and this redesign was successfully implemented in the live product.
         </p>
       </div>
 
