@@ -6,9 +6,11 @@
 
 /* background */
 body {
-  
+  overflow-x: hidden;
   background-color: #031329; /* color */
 }
+
+
 
 /* พื้นหลัง */
 .background-circles {
@@ -106,6 +108,92 @@ body {
 /* วงกลมที่ 8 */
 .circle8 {
   top: 4250px;
+  right: 1px;
+  width: 400px;
+  height: 400px;
+  background-color: #19376D;
+  filter: blur(200px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 1 */
+.circle9 {
+  top: 4750px;
+  left: 1px;
+  width: 300px;
+  height: 300px;
+  background-color: #19376D;
+  pointer-events: none;
+}
+
+/* วงกลมที่ 2 */
+.circle10 {
+  top: 5250px;
+  right: 1px;
+  width: 300px;
+  height: 300px;
+  background-color: #381A79;
+  pointer-events: none;
+}
+
+/* วงกลมที่ 3 */
+.circle11 {
+  top: 5750px;
+  left: -120px;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(150, 150, 150);
+  filter: blur(600px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 4 */
+.circle12 {
+  top: 6250px;
+  right: 1px;
+  width: 400px;
+  height: 400px;
+  background-color: #19376D;
+  filter: blur(400px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 5 */
+.circle13 {
+  top: 6750px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(70, 31, 116);
+  filter: blur(500px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 6 */
+.circle14 {
+  top:  7250px;
+  right: 1px;
+  width: 400px;
+  height: 400px;
+  background-color: #19376D;
+  filter: blur(150px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 7 */
+.circle15 {
+  top: 7750px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  background-color: #381A79;
+  filter: blur(250px);
+  pointer-events: none;
+}
+
+/* วงกลมที่ 8 */
+.circle16 {
+  top: 8250px;
   right: 1px;
   width: 400px;
   height: 400px;

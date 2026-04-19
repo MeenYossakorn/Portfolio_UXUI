@@ -58,21 +58,23 @@ const About = () => {
                       <div className="mt-8">
                         <a
                           href="https://drive.google.com/file/d/1G9OlUKek6LvmFUCatqMtfphgy3yVVBEG/view?usp=sharing"
-                          className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
-                          transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
+                          <button className="bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
+                          transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 ">
                           Resume
+                          </button>
                         </a>
                         <a
                           href="https://drive.google.com/file/d/1SeMM1y_j7eoKoO5n6dt3qDXo32NrCL-j/view?usp=sharing"
-                          className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
-                          transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 ml-4"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
+                          <button className="bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
+                          transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 ml-4">
                           Transcript
+                          </button>
                         </a>
                         
                       </div>
@@ -98,10 +100,11 @@ const About = () => {
                       <div className="mt-8">
                         <Link
                         to="/tmlth"
-                        className="group-hover:cursor-none bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
-                        transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
                         >
-                          View Case Study
+                          <button className="bg-purple-600 hover:bg-purple-700 text-white font-jetbrains-mono-medium py-2 px-3 rounded-lg 
+                          transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95">
+                          View Experience
+                          </button>
                         </Link>
                         
                         
