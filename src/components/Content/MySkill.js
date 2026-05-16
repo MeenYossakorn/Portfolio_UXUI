@@ -137,6 +137,19 @@ const MySkills = () => {
                     React
                   </p>
                 </div>
+                {/* Next.js Icons */}
+                <div className="flex flex-col items-center justify-center">
+                  <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
+                    <img
+                      src="https://www.svgrepo.com/show/354113/nextjs-icon.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7 sm:w-8 sm:h-8"
+                    />
+                  </div>
+                  <p className="font-roboto text-xs sm:text-sm text-white text-center mt-1">
+                    Next.js
+                  </p>
+                </div>
                 {/* Tailwind Icons */}
                 <div className="flex flex-col items-center justify-center">
                   <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gray-700 rounded-full flex items-center justify-center">
