@@ -53,7 +53,7 @@ const About = () => {
                         2021 - 2026
                       </p>
                       <p className="text-[10px] sm:text-sm md:text-base font-roboto">
-                        GPA : 2.69
+                        GPA : 2.70
                       </p>
                       <div className="mt-8">
                         <a
@@ -67,7 +67,7 @@ const About = () => {
                           </button>
                         </a>
                         <a
-                          href="https://drive.google.com/file/d/1SeMM1y_j7eoKoO5n6dt3qDXo32NrCL-j/view?usp=sharing"
+                          href="https://drive.google.com/file/d/1NcRfxsphjM1qGSpPHnvyqr2c_ceJjMNg/view?usp=sharing"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
