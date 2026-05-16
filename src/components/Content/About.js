@@ -57,7 +57,7 @@ const About = () => {
                       </p>
                       <div className="mt-8">
                         <a
-                          href="https://drive.google.com/file/d/1qKnWNlWq9XRXG0UdWH_1pbrDFivR2Zd7/view?usp=sharing"
+                          href="https://drive.google.com/file/d/13Mf_xY8VsyLY-o8-Nc1FWPz3PJXOqp4_/view?usp=sharing"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
